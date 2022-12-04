@@ -1,9 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -15,12 +21,43 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+
+.sec-title {
+  @apply text-3xl md:text-6xl tracking-widest font-extrabold text-main_title;
+}
+
+.logo-nav {
+  @apply flex items-center justify-between w-fit font-bold text-white text-lg lg:text-2xl select-none cursor-pointer;
+}
+
+.navbar-item {
+  @apply cursor-pointer text-sm text-white hover:text-[#4285F4] transition duration-500;
+}
+.navbar-mobile-item {
+  @apply cursor-pointer text-sm text-white hover:text-[#4285F4] transition duration-500;
+}
+.navbar-burger {
+  @apply w-10 h-1 rounded-full bg-[#CBD6E1];
 }
