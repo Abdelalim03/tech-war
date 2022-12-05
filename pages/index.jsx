@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import About from '../components/HomeComponent/About'
+import Faq from '../components/HomeComponent/Faq'
 import Hero from '../components/HomeComponent/Hero'
+import Speakers from '../components/HomeComponent/Speakers'
+import Sponsors from '../components/HomeComponent/Sponsors'
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,6 +17,10 @@ export default function Home() {
         <link rel="icon" href="/war_logo.png" />
       </Head>
       <Hero />
+      <About />
+      <Sponsors />
+      <Speakers />
+      <Faq />
       
     </>
   )

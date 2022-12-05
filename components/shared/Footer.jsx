@@ -30,8 +30,8 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="text-center lg:text-left text-white mb-0 ">
-      <div className="hidden lg:block absolute select-none left-1/2 -translate-x-1/2">
+    <footer id="contact" className="text-center lg:text-left text-white mb-0 ">
+      <div className="hidden lg:block absolute -z-10 select-none left-1/2 -translate-x-1/2">
         <Image src={robot} width={250} height={300} />
       </div>
       <div className="py-2 md:px-24 lg:py-12 lg:pl-8 z-10 text-center lg:text-left ">
@@ -56,79 +56,79 @@ const Footer = () => {
             </div>
           </div>
           <div className="hidden lg:col-span-2  lg:block">
-            <h6 className="uppercase font-semibold mb-4  flex justify-center md:justify-start">
+            <h6 className="uppercase font-semibold mb-4  text-2xl flex justify-center md:justify-start">
               Our Event
             </h6>
-            <p className="mb-4">
+            <p className="text-lg mb-4">
               <a href="#!" className="text-footer-element">
                 Home
               </a>
             </p>
-            <p className="mb-4">
+            <p className="text-lg mb-4">
               <a href="#!" className="text-footer-element">
                 About
               </a>
             </p>
-            <p className="mb-4">
+            <p className="text-lg mb-4">
               <a href="#!" className="text-footer-element">
                 Agenda
               </a>
             </p>
-            <p>
+            <p className="text-lg mb-4">
               <a href="#!" className="text-footer-element">
                 FAQ
               </a>
             </p>
-            <p>
+            <p className="text-lg ">
               <a href="#!" className="text-footer-element">
                 Contact
               </a>
             </p>
           </div>
           <div className="hidden lg:col-span-2  lg:block">
-            <h6 className="uppercase font-semibold mb-4  flex justify-center md:justify-start">
+            <h6 className="uppercase font-semibold mb-4 text-2xl  flex justify-center md:justify-start">
             Quick links
             </h6>
-            <p className="mb-4">
+            <p className="text-lg mb-4">
               <a href="#!" className="text-footer-element">
                 Home
               </a>
             </p>
-            <p className="mb-4">
+            <p className="text-lg mb-4">
               <a href="#!" className="text-footer-element">
                 About
               </a>
             </p>
-            <p className="mb-4">
+            <p className="text-lg mb-4">
               <a href="#!" className="text-footer-element">
                 Agenda
               </a>
             </p>
-            <p>
+            <p className="text-lg mb-4">
               <a href="#!" className="text-footer-element">
                 FAQ
               </a>
             </p>
-            <p>
+            <p className="text-lg ">
               <a href="#!" className="text-footer-element">
                 Contact
               </a>
             </p>
           </div>
           <div className="hidden lg:col-span-2 lg:flex flex-col justify-start ">
-            <h6 className="uppercase font-semibold mb-4  flex justify-center md:justify-start">
+            <h6 className="uppercase font-semibold mb-4 text-2xl flex justify-center md:justify-start">
               Contact Us
             </h6>
 
            <div className="flex flex-col justify-center ">
-             <p className="mb-4">
+             <p className="text-lg mb-4">
                <a href="#!" className=" text-footer-element">
-               <Image style={{display:"inline",marginRight:"3px"}} src={phone}  width={10} height={10} />+21336381617
+               <Image style={{display:"inline",marginRight:"5px"}} src={phone}  width={15} height={15} />+21336381617
                </a>
              </p>
-             <p className="mb-4">
+             <p className="text-lg mb-4">
                <a href="#!" className=" text-footer-element">
-                 <Image style={{display:"inline",marginRight:"3px"}} src={mail}  width={10} height={10} />ka_belhadef@esi.dz
+                 <Image style={{display:"inline",marginRight:"5px"}} src={mail}  width={15} height={15} />ka_belhadef@esi.dz
                </a>
              </p>
            </div>
@@ -138,7 +138,7 @@ const Footer = () => {
           
         </div>
       </div>
-      <hr class="solid h-3 border-gray-300"></hr>
+      <hr className="solid h-3 border-gray-300"></hr>
       <div className="text-center text-xl font-bold py-2 ">
       
         <span>Made with <Image style={{display:"inline",margin:"2px"}} src={heart}  width={15} height={15} />

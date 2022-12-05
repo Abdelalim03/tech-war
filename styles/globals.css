@@ -43,9 +43,13 @@ button {
   font-weight: bold;
 }
 
-
+.sec-title{
+  background: -webkit-linear-gradient(90.51deg, #3494E6 -0.9%, #272499 112.96%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .sec-title {
-  @apply text-3xl md:text-6xl tracking-widest font-extrabold text-main_title;
+  @apply text-3xl md:text-6xl tracking-widest font-extrabold  uppercase ;
 }
 
 .logo-nav {

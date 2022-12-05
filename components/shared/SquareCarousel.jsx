@@ -1,0 +1,81 @@
+import React from 'react'
+
+//import images
+import yassir from '../../public/yassir.png'
+import google from '../../public/google.png'
+import hp from '../../public/hp.png'
+import microsoft from '../../public/microsoft.png'
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import required modules
+import { FreeMode, Navigation } from "swiper";
+import Image from 'next/image';
+
+function SquareCarousel() {
+    const sponsors= [
+        {
+            id:1,
+            image:microsoft
+        },
+        {
+            id:2,
+            image:google
+        },
+        {
+            id:3,
+            image:hp
+        },
+        {
+            id:4,
+            image:yassir
+        }
+
+    ]
+  return (
+    <Swiper
+      loop={true}
+      navigation={true}
+      observer={true}
+      breakpoints={{
+        300: {
+          slidesPerView: 1,
+        },
+        500: {
+          slidesPerView: 3,
+        },
+        800:{
+            slidesPerView:4
+        }
+
+      }}
+      slideToClickedSlide={true}
+      speed={500}
+      centeredSlides={true}
+      freeMode={true}
+      modules={[FreeMode,Navigation]}
+      
+    >
+      {sponsors?.map((sponsor, idx) => (
+        <SwiperSlide key={sponsor.id} className="flex items-center justify-center ">
+          {({ isActive, isNext, isPrev }) => (
+            
+                <div className={`w-52 h-52 shadow-[0_10px_100px_7px_rgb(0,0,0)] backdrop-blur-sm bg-[#0E1023CC] flex justify-center items-center ${isActive && 'w-72 h-72 '}`}>
+                    <div className='w-[70%] select-none'>
+                        <Image  src={sponsor.image} alt={sponsor.lastname} />
+                    </div>
+                </div>
+               
+          )}
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  )
+}
+
+export default SquareCarousel

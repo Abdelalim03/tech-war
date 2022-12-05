@@ -12,7 +12,7 @@ const Navbar = () => {
   const navLinks = [
     {
       name: "Home",
-      to: "#",
+      to: "#home",
     },
     {
       name: "About",
@@ -32,7 +32,7 @@ const Navbar = () => {
     },
   ]; 
   return (
-    <nav className="w-full z-40 flex flex-col  ">
+    <nav className="w-full  flex flex-col  ">
       <div className="flex justify-between items-center">
         <a href="#home" className="logo-nav">
           <Image src={Logo} width={70} height={10} alt="tech war" />
@@ -73,10 +73,10 @@ const Navbar = () => {
         </div>
       </div>
       {isToggle && (
-        <div className="md:hidden flex flex-col mx-4 z-20 items-center gap-5 py-10 rounded">
+        <div className="md:hidden flex flex-col mx-4  items-center gap-5 py-10 rounded">
           {navLinks.map((navLink, idx) => {
             return (
-              <div className="flex flex-col mx-4 z-20 items-center gap-3 py-0">
+              <div className="flex flex-col mx-4  items-center gap-3 py-0">
                 <a
                   key={idx}
                   href={navLink.to}
