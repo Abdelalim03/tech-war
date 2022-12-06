@@ -45,7 +45,7 @@ function SquareCarousel({sponsors}) {
             
                 <div className={`w-52 h-52 shadow-[0_10px_100px_7px_rgb(0,0,0)] backdrop-blur-sm bg-[#0E1023CC] flex justify-center items-center ${isActive && 'w-72 h-72 '}`}>
                     <div className='w-[70%] select-none'>
-                        <Image  src={sponsor.image} alt={sponsor.lastname} />
+                        <img  src={sponsor.image} alt={sponsor.lastname} />
                     </div>
                 </div>
                

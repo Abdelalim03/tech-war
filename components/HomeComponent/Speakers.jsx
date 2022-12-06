@@ -1,24 +1,22 @@
 import React from 'react'
 import Carousel from '../shared/Carousel'
-import elon_musk from '../../public/Elon_musk.png'
-import mark_zucker from '../../public/Mark_zuckerburg.png'
-import bill_gates from '../../public/Bill_gates.png'
+
 function Speakers() {
   const sponsors= [
     {
         firstname:"Mark",
         lastname:"Zuckerburg",
-        image:mark_zucker
+        image:"/Mark_zuckerburg.png"
     },
     {
         firstname:"Elon",
         lastname:"Musk",
-        image:elon_musk
+        image:"/Elon_musk.png"
     },
     {
         firstname:"Bill",
         lastname:"Gates",
-        image:bill_gates
+        image:"/Bill_gates.png"
     }
 
 ]

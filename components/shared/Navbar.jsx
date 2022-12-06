@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Image from "next/image";
-import Logo from "/public/war_logo.png";
 
 const Navbar = () => {
   const [isToggle, setIsToggle] = useState(false);
@@ -35,7 +34,7 @@ const Navbar = () => {
     <nav className="w-full  flex flex-col  ">
       <div className="flex justify-between items-center">
         <a href="#home" className="logo-nav">
-          <Image src={Logo} width={70} height={10} alt="tech war" />
+          <Image src="/war_logo.png" width={70} height={10} alt="tech war" />
             TECH WAR
         </a>
 

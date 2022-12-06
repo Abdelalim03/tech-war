@@ -45,7 +45,7 @@ function Carousel({sponsors}) {
             <div className='flex flex-col justify-between'>
                 <div className={`w-64 rounded-full h-64 mb-10 flex justify-center items-center ${isActive && 'w-80 h-80 shadow-[0_8px_10px_rgb(36,72,227)]'}`}>
                     <div className='w-[80%] select-none'>
-                        <Image  src={sponsor.image} alt={sponsor.lastname} />
+                        <img  src={sponsor.image} alt={sponsor.lastname} />
                     </div>
                 </div>
                 <div className={`${isActive && 'bg-[#212A5C] rounded-3xl px-8 py-2'} select-none cursor-pointer`}>

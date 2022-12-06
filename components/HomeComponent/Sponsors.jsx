@@ -1,28 +1,24 @@
 import React from 'react'
 import SquareCarousel from '../shared/SquareCarousel'
-//import images
-import yassir from '/public/yassir.png'
-import google from '/public/google.png'
-import hp from '/public/hp.png'
-import microsoft from '/public/microsoft.png'
+
 
 function Sponsors() {
   const sponsors= [
     {
         id:1,
-        image:microsoft
+        image:"/microsoft.png"
     },
     {
         id:2,
-        image:google
+        image:"/google.png"
     },
     {
         id:3,
-        image:hp
+        image:"/hp.png"
     },
     {
         id:4,
-        image:yassir
+        image:'/yassir.png'
     }
 
 ]

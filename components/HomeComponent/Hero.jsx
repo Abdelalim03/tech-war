@@ -1,7 +1,5 @@
 import Image from 'next/image'
 import React from 'react';
-import Globe from '../../public/globe_terrestre.svg'
-
 import { Typewriter } from 'react-simple-typewriter'
 
 
@@ -12,7 +10,7 @@ function Hero() {
     <div id='home' className='h-screen flex flex-col gap-8 md:gap-0 md:flex-row justify-center md:justify-around items-center' >
       
     <div className='w-2/3 md:w-1/3 animate-spin-slow '>
-      <Image src={Globe}   />
+      <img src="/globe_terrestre.svg"  />
     </div>
     <div className='flex flex-col text-center justify-center items-center gap-6'>
       <pre className='text-[#8C89FF] font-semibold text-4xl tracking-widest leading-10'>
