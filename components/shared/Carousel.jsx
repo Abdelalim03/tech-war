@@ -1,9 +1,7 @@
 import React from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import elon_musk from '../../public/Elon_musk.png'
-import mark_zucker from '../../public/Mark_zuckerburg.png'
-import bill_gates from '../../public/Bill_gates.png'
+
 
 // Import Swiper styles
 import "swiper/css";
@@ -14,25 +12,8 @@ import "swiper/css/navigation";
 import { FreeMode, Navigation } from "swiper";
 import Image from 'next/image';
 
-function Carousel() {
-    const sponsors= [
-        {
-            firstname:"Mark",
-            lastname:"Zuckerburg",
-            image:mark_zucker
-        },
-        {
-            firstname:"Elon",
-            lastname:"Musk",
-            image:elon_musk
-        },
-        {
-            firstname:"Bill",
-            lastname:"Gates",
-            image:bill_gates
-        }
-
-    ]
+function Carousel({sponsors}) {
+    
   return (
     <Swiper
     initialSlide={1}

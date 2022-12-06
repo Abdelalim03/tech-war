@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import Logo from "/public/war_logo.png";
+import Logo from "/war_logo.png";
 
 const Navbar = () => {
   const [isToggle, setIsToggle] = useState(false);

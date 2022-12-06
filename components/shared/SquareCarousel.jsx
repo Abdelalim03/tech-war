@@ -1,10 +1,6 @@
 import React from 'react'
 
-//import images
-import yassir from '../../public/yassir.png'
-import google from '../../public/google.png'
-import hp from '../../public/hp.png'
-import microsoft from '../../public/microsoft.png'
+
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -18,25 +14,7 @@ import { FreeMode, Navigation } from "swiper";
 import Image from 'next/image';
 
 function SquareCarousel() {
-    const sponsors= [
-        {
-            id:1,
-            image:microsoft
-        },
-        {
-            id:2,
-            image:google
-        },
-        {
-            id:3,
-            image:hp
-        },
-        {
-            id:4,
-            image:yassir
-        }
-
-    ]
+    
   return (
     <Swiper
       loop={true}

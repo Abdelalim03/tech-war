@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react';
-import Globe from '../../public/globe_terrestre.svg'
+import Globe from '/globe_terrestre.svg'
 
 import { Typewriter } from 'react-simple-typewriter'
 
