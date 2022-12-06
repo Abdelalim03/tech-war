@@ -13,7 +13,7 @@ import "swiper/css/navigation";
 import { FreeMode, Navigation } from "swiper";
 import Image from 'next/image';
 
-function SquareCarousel() {
+function SquareCarousel({sponsors}) {
     
   return (
     <Swiper

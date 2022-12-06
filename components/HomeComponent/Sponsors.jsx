@@ -1,10 +1,10 @@
 import React from 'react'
 import SquareCarousel from '../shared/SquareCarousel'
 //import images
-import yassir from '/yassir.png'
-import google from '/google.png'
-import hp from '/hp.png'
-import microsoft from '/microsoft.png'
+import yassir from '/public/yassir.png'
+import google from '/public/google.png'
+import hp from '/public/hp.png'
+import microsoft from '/public/microsoft.png'
 
 function Sponsors() {
   const sponsors= [

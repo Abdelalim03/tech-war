@@ -1,14 +1,14 @@
 import Image from "next/image";
-import facebook from "../../facebook.svg";
-import twitter from "../../twitter.svg";
-import instagram from "../../instagram.svg";
-import linkedin from "../../linkedin.svg";
-import phone from "../../phone.svg";
-import mail from "../../mail.svg";
-import robot from "../../robot.svg";
-import logo from "../../big_logo.svg";
-import cseLogo from "../../cse_logo.svg";
-import heart from "../../heart.svg";
+import facebook from "../../public/facebook.svg";
+import twitter from "../../public/twitter.svg";
+import instagram from "../../public/instagram.svg";
+import linkedin from "../../public/linkedin.svg";
+import phone from "../../public/phone.svg";
+import mail from "../../public/mail.svg";
+import robot from "../../public/robot.svg";
+import logo from "../../public/big_logo.svg";
+import cseLogo from "../../public/cse_logo.svg";
+import heart from "../../public/heart.svg";
 
 const Footer = () => {
   const socials = [

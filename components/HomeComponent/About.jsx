@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import robocop from '/robocop.svg'
+import robocop from '../../public/robocop.svg'
 
 function About() {
   return (
