@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import About from '../components/HomeComponent/About'
+import Agenda from '../components/HomeComponent/Agenda'
 import Faq from '../components/HomeComponent/Faq'
 import Hero from '../components/HomeComponent/Hero'
 import Speakers from '../components/HomeComponent/Speakers'
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
       <Hero />
       <About />
+      <Agenda />
       <Sponsors />
       <Speakers />
       <Faq />

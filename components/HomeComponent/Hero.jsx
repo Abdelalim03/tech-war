@@ -24,13 +24,15 @@ function Hero() {
             delaySpeed={1500}
           />
         </pre>
-     
-          <button
-            type="button"
-            className="w-fit bg-tech_button text-lg lg:text-2xl text-[#040726] px-12 py-3 rounded-[80px] cursor-pointer "
-          >
-            Register Now
-          </button>
+
+          <a target="_blank" href='https://docs.google.com/forms/d/e/1FAIpQLScctrYI1vJOipgRgOJ7WBn31iA61Mmo0q5-Y4tS30l-FpR7RQ/viewform'>
+            <button
+              type="button"
+              className="w-fit bg-tech_button text-lg lg:text-2xl text-[#040726] px-12 py-3 rounded-[80px] cursor-pointer "
+            >
+              Register Now
+            </button>
+          </a>
     </div>
     </div>
   )
