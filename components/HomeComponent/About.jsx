@@ -1,5 +1,6 @@
-import Image from 'next/image'
 import React from 'react'
+// import Lottie from 'lottie-react';
+// import animationData from './lotties/lhabla';
 
 function About() {
   return (
@@ -10,6 +11,13 @@ function About() {
         </div>
         <div className='hidden md:block md:w-[15%]'>
             <img src="/robocop.svg" />
+                {/* <Lottie 
+            animationData={animationData}
+            loop={true}
+            autoplay={true}
+            height={400}
+            width={400}
+          /> */}
         </div>
     </div>
   )
