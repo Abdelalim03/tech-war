@@ -6,19 +6,23 @@ function Sponsors() {
   const sponsors= [
     {
         id:1,
-        image:"/microsoft.png"
+        image:"/DJEZZY.png",
+        url:"https://www.djezzy.dz/"
     },
     {
         id:2,
-        image:"/google.png"
+        image:"/NAFTAL.png",
+        url:"https://www.naftal.dz/"
     },
     {
         id:3,
-        image:"/hp.png"
+        image:"/cevital.png",
+        url:"https://www.cevital.com/"
     },
     {
         id:4,
-        image:'/yassir.png'
+        image:'/Ooredoo.png',
+        url:"http://www.ooredoo.dz/"
     }
 
 ]

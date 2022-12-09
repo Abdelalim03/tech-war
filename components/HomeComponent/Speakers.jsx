@@ -4,21 +4,21 @@ import Carousel from '../shared/Carousel'
 function Speakers() {
   const sponsors= [
     {
-        firstname:"Mark",
-        lastname:"Zuckerburg",
-        image:"/Mark_zuckerburg.png"
+        firstname:"Islam",
+        lastname:"Helmy",
+        image:"/helmy.png"
     },
     {
-        firstname:"Elon",
-        lastname:"Musk",
-        image:"/Elon_musk.png"
-    },
-    {
-        firstname:"Bill",
-        lastname:"Gates",
-        image:"/Bill_gates.png"
+        firstname:"Abdelhadi",
+        lastname:"bour",
+        image:"/bour.png"
     }
-
+    ,
+    {
+        firstname:"Mansour",
+        lastname:"Koura",
+        image:"/koura.png"
+    }
 ]
   return (
     <div className='text-center max-h-screen py-32'>

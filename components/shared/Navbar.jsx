@@ -31,7 +31,7 @@ const Navbar = () => {
     },
   ]; 
   return (
-    <nav className="w-full  flex flex-col  ">
+    <nav className="w-full flex flex-col ">
       <div className="flex justify-between items-center">
         <a href="#home" className="logo-nav">
           <Image src="/war_logo.png" width={70} height={10} alt="tech war" />

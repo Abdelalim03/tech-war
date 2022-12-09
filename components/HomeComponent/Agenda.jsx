@@ -3,149 +3,180 @@ const Agenda = () => {
     const [day1,setDay1]=useState([
         {
             id : 1 ,
-            starttTime:"9:30 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
+            starttTime:"8:30 AM",
+            endTime:"9:00 AM",
+            task:"Check in",
             color:"border-[#FF8F2B]"
         },
         {
             id : 2,
-            starttTime:"9:30 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
+            starttTime:"9:00 AM",
+            endTime:"9:30 AM",
+            task:"Opening ceremony",
             color:"border-[#966CEF]"
             
         },
         {
             id : 3 ,
             starttTime:"9:30 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
+            endTime:"10:30 AM",
+            task:"First talk",
             color:"border-[#FA3A4B]"
 
         },
         {
             id : 4 ,
-            starttTime:"9:30 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
+            starttTime:"10:30 AM",
+            endTime:"11:30 AM",
+            task:"Second talk",
             color:"border-[#1652F5]"
 
         },
         {
             id : 5,
-            starttTime:"9:30 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
+            starttTime:"11:30 AM",
+            endTime:"12:00 AM",
+            task:"Ice break",
             color:"border-[#2EC740]"
 
         },
         {
             id : 6 ,
-            starttTime:"9:30 AM",
-            endTime:"10:00 AM",
-            task:"Chekin", 
+            starttTime:"12:00 AM",
+            endTime:"1:30 PM",
+            task:"Restauration", 
             color:"border-[#FFBF3A]"
 
         },
+        {
+            id : 7 ,
+            starttTime:"1:30 PM",
+            endTime:"4:30 PM",
+            task:"Workshop",
+            color:"border-[#FF8F2B]"
+        },
+        {
+            id : 8,
+            starttTime:"4:30 PM",
+            endTime:"5:00 PM",
+            task:"Break",
+            color:"border-[#966CEF]"
+            
+        }
     ])
     const [day2,setDay2]=useState([
         {
-            id : 1 ,
-            starttTime:"0000 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
-            color:"border-[#FF8F2B]"
-        },
-        {
             id : 2,
-            starttTime:"9:30 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
+            starttTime:"9:00 AM",
+            endTime:"9:30 AM",
+            task:"Check in",
             color:"border-[#966CEF]"
             
         },
         {
             id : 3 ,
             starttTime:"9:30 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
+            endTime:"10:30 AM",
+            task:"First talk",
             color:"border-[#FA3A4B]"
 
         },
         {
             id : 4 ,
-            starttTime:"9:30 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
+            starttTime:"10:30 AM",
+            endTime:"11:30 AM",
+            task:"Second talk",
             color:"border-[#1652F5]"
 
         },
         {
             id : 5,
-            starttTime:"9:30 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
+            starttTime:"11:30 AM",
+            endTime:"12:00 AM",
+            task:"Ice break",
             color:"border-[#2EC740]"
 
         },
         {
             id : 6 ,
-            starttTime:"9:30 AM",
-            endTime:"100 AM",
-            task:"Chekin", 
+            starttTime:"12:00 AM",
+            endTime:"1:30 PM",
+            task:"Restauration", 
             color:"border-[#FFBF3A]"
 
         },
+        {
+            id : 7 ,
+            starttTime:"1:30 PM",
+            endTime:"4:30 PM",
+            task:"Workshop",
+            color:"border-[#FF8F2B]"
+        },
+        {
+            id : 8,
+            starttTime:"4:30 PM",
+            endTime:"5:00 PM",
+            task:"Break",
+            color:"border-[#966CEF]"
+            
+        }
     ])
     const [day3,setDay3]=useState([
         {
-            id : 1 ,
-            starttTime:"9999 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
-            color:"border-[#FF8F2B]"
-        },
-        {
             id : 2,
-            starttTime:"9:30 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
+            starttTime:"9:00 AM",
+            endTime:"9:30 AM",
+            task:"Check in",
             color:"border-[#966CEF]"
             
         },
         {
             id : 3 ,
             starttTime:"9:30 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
+            endTime:"10:30 AM",
+            task:"First talk",
             color:"border-[#FA3A4B]"
 
         },
         {
             id : 4 ,
-            starttTime:"9:30 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
+            starttTime:"10:30 AM",
+            endTime:"11:30 AM",
+            task:"Second talk",
             color:"border-[#1652F5]"
 
         },
         {
             id : 5,
-            starttTime:"9:30 AM",
-            endTime:"10:00 AM",
-            task:"Chekin",
+            starttTime:"11:30 AM",
+            endTime:"12:00 AM",
+            task:"Ice break",
             color:"border-[#2EC740]"
 
         },
         {
             id : 6 ,
-            starttTime:"9:30 AM",
-            endTime:"99999 AM",
-            task:"Chekin", 
+            starttTime:"12:00 AM",
+            endTime:"1:30 PM",
+            task:"Restauration", 
             color:"border-[#FFBF3A]"
 
         },
+        {
+            id : 7 ,
+            starttTime:"1:30 PM",
+            endTime:"4:30 PM",
+            task:"Workshop",
+            color:"border-[#FF8F2B]"
+        },
+        {
+            id : 8,
+            starttTime:"4:30 PM",
+            endTime:"5:00 PM",
+            task:"Closing ceremony",
+            color:"border-[#966CEF]"
+            
+        }
     ])
     const [agenda,setAgenda]=useState(day1)
     const [value,setvalue]=useState(1)

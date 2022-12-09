@@ -42,9 +42,9 @@ function SquareCarousel({sponsors}) {
         <SwiperSlide key={sponsor.id} className="flex items-center justify-center ">
           {({ isActive, isNext, isPrev }) => (
                 <div className={`w-52 h-52 shadow-[0_10px_100px_7px_rgb(0,0,0)] backdrop-blur-sm bg-[#0E1023CC] flex justify-center items-center ${isActive && 'w-72 h-72 '}`}>
-                    <div className='w-[70%] select-none'>
+                    <a target="_blank" href={sponsor.url} className='w-[70%] select-none'>
                         <img  src={sponsor.image} alt={sponsor.lastname} />
-                    </div>
+                    </a>
                 </div>
                
           )}

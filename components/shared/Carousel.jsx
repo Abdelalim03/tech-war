@@ -10,7 +10,6 @@ import "swiper/css/navigation";
 
 // import required modules
 import { FreeMode, Navigation } from "swiper";
-import Image from 'next/image';
 
 function Carousel({sponsors}) {
     
@@ -51,7 +50,7 @@ function Carousel({sponsors}) {
                 <div className={`${isActive && 'bg-[#212A5C] rounded-3xl px-8 py-2'} select-none cursor-pointer`}>
                     
                     <p className={`${isActive ? 'text-xl':'text-base'} text-[#A5A3A3]`}>{sponsor.firstname}</p>
-                    <h2 className={`${isActive ? 'text-3xl':'text-xl'} text-white font-bold`}>{sponsor.lastname}</h2>
+                    <h2 className={`${isActive ? 'text-3xl':'text-xl'} uppercase text-white font-bold`}>{sponsor.lastname}</h2>
                 </div>
             </div>
           )}
